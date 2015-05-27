@@ -13,6 +13,11 @@
 	font-style: italic;
 }
 
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	font-size: 100%;
 }
@@ -60,7 +65,7 @@ table{
 #menu{
 	/*margin: 5 auto;*/
 	background-color: #800000;
-	float: top;
+	margin-top: 0;
 }
 
 ul#menu{
