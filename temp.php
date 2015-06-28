@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Mousm★n</title>
+	<title></title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/style.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
