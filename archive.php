@@ -8,18 +8,8 @@
 </head>
 
 <body>
-<div id="menu">
-	<ul id="menu">
-		<li><a href="/index.html">Home</a></li>
-		<li><a href="/post/post.html">Form</a></li>
-		<li><a href="/ucp/mcsUCP.zip">UCP</a></li>
-		<li><a href="/nicsres.html">nicsres</a></li>
-		<li><a href="/archive.html">Upload Image</a></li>
-		<li><a href="/archive/">Archive</a></li>
-	</ul>
-</div>
 
-<?php include '/menu.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/menu.php'); ?>
 
 
 <div id="cendex" style="padding: 6px 10px 6px 10px" > 

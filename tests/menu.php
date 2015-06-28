@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<title></title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/style.css">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-</head>
-
-<body>
-
 <div id="menu">
 	<ul id="menu">
 		<li><a href="/index.html">Home</a></li>
@@ -19,12 +8,3 @@
 		<li><a href="/archive">Archive</a></li>
 	</ul>
 </div>
-
-<div id="cendex">
-
-
-
-</div>	
-
-</body>
-</html>

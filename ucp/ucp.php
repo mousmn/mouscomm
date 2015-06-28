@@ -33,16 +33,7 @@
 
 <body>
 
-<div id="menu">
-	<ul id="menu">
-		<li><a href="/index.html">Home</a></li>
-		<li><a href="/post/post.html">Form</a></li>
-		<li><a href="/ucp/ucp.html">UCP</a></li>
-		<li><a href="/nicsres.html">nicsres</a></li>
-		<li><a href="/archive.html">Upload Image</a></li>
-		<li><a href="/archive">Archive</a></li>
-	</ul>
-</div>	
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/menu.php'); ?>
 
 <div id="cendex" style="padding: 6px 10px 6px 10px">
 
@@ -51,7 +42,7 @@
 
 
 	<p></p>
-	<p style="text-align: center;"><a href="L'History copy2.svg">L'History (WIP)</a> | <a href="lhistory.html">Viewer (WIP)</a></p>
+	<p style="text-align: center;"><a href="L'History copy2.svg">L'History (WIP)</a> | <a href="lhistory.php">Viewer (WIP)</a></p>
 
 	<table class="ucpTab">
 		<tr>
@@ -61,16 +52,16 @@
 			<th>Download</th>
 		</tr>
 		<tr>
-			<td>Umm</td>
+			<td>Dec. 2014</td>
 			<td>V1r6</td>
-			<td><a href="notes/V1r6-notes.txt" target="notesFrame">Yeah</a></td>
+			<td><a href="notes/V1r6-notes.txt" target="notesFrame">Sickma's Revival</a></td>
 			<td><a href="/mc/versions/mcsUCP-V1r6.zip">Here</a></td>
 		</tr>
 		<tr>
-			<td>Sure</td>
+			<td>Before that</td>
 			<td>V1r5</td>
-			<td><a href="notes/V1r5-notes.html" target="notesFrame">Do it</a></td>
-			<td><a href="/mc/versions/mcsUCP-V1r5.zip">Sure</a></td>
+			<td><a href="notes/V1r5-notes.html" target="notesFrame">The Great Sickma Scandal</a></td>
+			<td><a href="/mc/versions/mcsUCP-V1r5.zip">Not really</a></td>
 		</tr>
 		<tr>
 			<td></td>

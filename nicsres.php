@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>nicsres</title>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">	
 	<style>
-       		body {
-			font-family:arial;
+       		:not(#menu) {
+			/*font-family:arial;*/
 			font-size:12pt;
 		}
 
@@ -21,8 +23,10 @@
 	</style>
 </head>
 
-
 <body>
+
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/menu.php'); ?>
+
 <div id="resalign">
 
 	<h1 style="text-align:center;">Dakota Holder</h1>

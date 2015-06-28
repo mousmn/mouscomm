@@ -1,59 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-	<title>Post submitted</title>
+	<title>Create a post</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/style.css">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">	
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
 <body>
 
-<div id="menu">
-	<ul id="menu">
-		<li><a href="/index.html">Home</a></li>
-		<li><a href="/post/post.html">Form</a></li>
-		<li><a href="/ucp/mcsUCP.zip">UCP</a></li>
-		<li><a href="/nicsres.html">nicsres</a></li>
-		<li><a href="/archive.html">Upload Image</a></li>
-		<li><a href="/archive">Archive</a></li>
-	</ul>
-</div>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/menu.php'); ?>
 
-<div id="cendex" class="fielddex"> 
+<div id="cendex" class="fielddex">
+	<form action="submit.php" method="POST">
 	<fieldset>
-		<p><?php echo "Post submit"; ?><br/></p>
-		<p><?php echo $_POST["identity"]; ?><br/></p>
-		<p><?php $formattedPost = str_replace(' ', '&nbsp', $_POST["postfield"]);
-			echo nl2br($formattedPost); ?><br/></p>
-		<form action="readback.php" method="POST">
-			<input type="submit" value="Read back">
-		</form>
+	<legend>Edit post</legend>
+
+		Identity:<br/>
+		<input type="text" name="identity" size="64" autofocus><br/>
+
+		Post field:<br/>
+		<textarea name="postfield" rows="10" cols="50"></textarea><br/>
+
+		<input type="submit" value="Submit">
 	</fieldset>
-
-	<?php
-		if ($_POST["postfield"] == NULL)
-			return;
-
-		$postText = $_POST["postfield"] ;
-		$postIdent = $_POST["identity"];
-		$postID = date("Ymd-H:i:s") . '-' . $postIdent;
-		$postFile = fopen("/posts/$postID", "w") or die("Post open fail");
-
-		if (fwrite($postFile, $postIdent . "\n" . $postText . "\n")){
-			$counter = "/posts/counter";
-			if (!file_exists($counter)){
-				touch($counter);
-			}
-			fopen("$counter", "r+") or die("Counter open fail");
-			$updateCounter = intval(fread($counter));
-			$updateCounter++;
-			echo fwrite($counter, $updateCounter);
-			fclose($counter);
-
-		}
-		fclose($postFile);
-
-	?>
+	</form>
 </div>
+	<script src="allowTab.js"></script>
 
 </body>
 </html>
+
