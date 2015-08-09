@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/style.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="allowTab.js"></script>-->
 </head>
 <body>
 
@@ -25,7 +27,6 @@
 	</fieldset>
 	</form>
 </div>
-	<script src="allowTab.js"></script>
 
 </body>
 </html>
