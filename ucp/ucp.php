@@ -5,30 +5,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/style.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<style>
-		table.ucpTab{
-			width: 50%;
-			border-collapse: collapse;
-			margin: auto;
-			margin-bottom: 10px;
-		}
-		table.ucpTab, th, td{
-			padding: 5px 10px 5px 10px;
-			border: 1px solid grey;
-		}
-		table.ucpTab tr:nth-child(odd){
-			background-color: #efefef;
-		}
-		table.ucpTab tr:nth-child(even){
-			background-color: #f7f7f7;
-		}
-		body{
-			/*background-color: #ababff;*/
-		}
-		a, a:link, a:visited{
-			/*color: #5959ff;*/
-		}
-	</style>
 </head>
 
 <body>
