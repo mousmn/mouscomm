@@ -25,11 +25,13 @@
 		echo "<br/><br/>";
 		
 		//Print postFiled
+		echo "<pre>";
 		while(!feof($postFile)){
 			#echo htmlentities(fgets($postFile));
 			echo fgets($postFile);
 			echo "<br/>";
 		}
+		echo "</pre>";
 		fclose($postFile);
 	?>
 
