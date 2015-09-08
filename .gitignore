@@ -1,7 +1,9 @@
 .Trash-1000/
-archive/
+archive/*
 ln/
 paul/
 Thumbs.db
 *\~
 .*\~
+post/posts/*
+post/old/
