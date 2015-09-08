@@ -23,10 +23,11 @@
 			$postText = $_POST["postfield"] ;
 			$postIdent = $_POST["identity"];
 			$postID = date("Ymd-H:i:s") . '-' . $postIdent;
-			$postFile = fopen("posts/$postID", "w") or die("Post open fail");
+			$postFile = fopen("posts/$postID.txt", "w") or die("Post open fail");
 
-			if (fwrite($postFile, $postIdent . "\n" . $postText . "\n")){
-				$counter = "posts/counter";
+			#if (fwrite($postFile, $postIdent . "\n" . $postText . "\n")){
+			fwrite($postFile, $postIdent . "\n" . $postText . "\n");
+				/*$counter = "posts/counter";
 				if (!file_exists($counter)){
 					touch($counter);
 				}
@@ -35,8 +36,8 @@
 				$updateCounter++;
 				echo fwrite($counter, $updateCounter);
 				fclose($counter);
-
-			}
+				*/
+			
 			fclose($postFile);
 
 		?>
