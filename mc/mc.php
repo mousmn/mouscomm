@@ -15,8 +15,8 @@
 <div id="cendex">
 
 	<div style="width:75%;margin:auto;">
-		<h2 style="text-align:center;" alt="cover" title="cover">Intelligentsia Pack</h2>
-		<p><img src="cover.png" style="float:right;"></p>
+		<h2 style="text-align:center;">Intelligentsia Pack</h2>
+		<p><img src="cover.png" style="float:right;" alt="cover" title="cover"></p>
 		<h5>Created by Crestor123</h5>
 		<p><a href="http://www.technicpack.net/modpack/intelligentsia-pack.709976" target="_blank">Modpack</a> |
 			<a href="http://www.technicpack.net/download" target="_blank">Technic Launcher</a></p>
