@@ -127,10 +127,18 @@ table.ucpTab, th, td{
 	padding: 5px 10px 5px 10px;
 	border: 1px solid grey;
 }
+/*
 table.ucpTab tr:nth-child(odd){
 	background-color: #efefef;
 }
 table.ucpTab tr:nth-child(even){
 	background-color: #f7f7f7;
 }
+*/
 
+tr.odd{
+	background-color: #efefef;
+}
+tr.even{
+	background-color: #f7f7f7;
+}
