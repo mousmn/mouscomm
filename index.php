@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="/style.css">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<style>
+		img {
+			width: 100%;
+		}
 		#under{
 			display: none;
 			position: absolute;
@@ -43,7 +46,7 @@
 		<p><i>Quiet as a mous</i></p>
 	</header>
 
-	<p style="text-align:center;"><img src="/images/quietasmous.png" alt="Quiet as a mous"></p>	
+	<p style="margin:auto;width:250px;height:283px;"><img src="/images/quietasmous.png" alt="Quiet as a mous"></p>	
 	<!--<p><i>"Nothing actually works"</i></p>-->
 	<p><i>"Everything currently works"</i></p>
 </div>
