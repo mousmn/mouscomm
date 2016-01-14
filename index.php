@@ -48,10 +48,12 @@
 
 	<p style="margin:auto;width:250px;height:283px;"><img src="/images/quietasmous.png" alt="Quiet as a mous"></p>	
 	<!--<p><i>"Nothing actually works"</i></p>-->
-	<p><i>"Everything currently works"</i></p>
+	<!--<p><i>"Everything currently works"</i></p>-->
+	<p><i>"We &#x2665; PHP"</i></p>
 </div>
 
 <script>
+/*
 	var l = document.getElementById("under");
 	console.log(l);
 	console.log("help");
@@ -63,6 +65,7 @@
 		l.style.display = "hidden";
 		console.log("ho");
 	}
+ */
 </script>
 
 </body>

@@ -19,6 +19,9 @@
 			width:700px;
 			margin:0 auto;
 		}
+		table, tr, td {
+			border: none;
+		}
 
 	</style>
 </head>

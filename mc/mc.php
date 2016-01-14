@@ -28,6 +28,7 @@
 
 		
 
+<!--
 		<hr/>
 		
 		<h2 style="text-align:center;">MousLanOne</h2>
@@ -35,7 +36,8 @@
 		<p>"Not Maxx"</p>
 
 
-		<?php
+<?php
+	/*
 			$file = @fopen('ModList.txt', 'r');
 
 			if ($file){
@@ -93,8 +95,9 @@
 				print '<p>File not found :(</p>';
 			}
 
-			fclose($file);
-		?>
+			fclose($file);*/
+?>
+-->
 	</div>
 
 </div>
