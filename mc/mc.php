@@ -33,7 +33,9 @@
 		
 		<h2 style="text-align:center;">MousLanOne</h2>
 		<h5>Created by Mousmn</h5>
-		<p>"Not Maxx"</p>
+		<p>"30% less masochism :|"</p>
+		<p></p>
+		<p>This pack contains Fastcraft, by Player, enabled by default. Fastcraft enhances Minecraft with increased performance. Bug reports being made directly to Mod Authors should state Fastcraft is enabled.</p>
 
 
 <?php
